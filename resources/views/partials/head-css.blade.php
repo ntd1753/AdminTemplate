@@ -9,9 +9,10 @@
 <!-- App js -->
 <script src="{{ URL::asset('build/js/plugin.js') }}"></script>
 <style>
-    #side-menu li:hover {
-        background-color: rgba(0, 0, 0, 0.3);
-        color: white; /* Để chữ dễ đọc trên nền đen */
+    #side-menu a:hover {
+        font-weight: bold;
     }
-
+    .mm-active .active{
+        font-weight: bold;
+    }
 </style>
